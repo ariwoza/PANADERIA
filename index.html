@@ -2,9 +2,10 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Pan a Casa</title>
+    <title>Panadería | Pan a Casa</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="styleplantilla.css">
+    <link rel="stylesheet" href="./css/stylepanaderia.css">
+    <link rel="icon"  sizes="96x96" href="img/favicon/logopanacasa.ico">
     <link href="https://file.myfontastic.com/bBXtkY3eDu5WtBXfw7Bp5E/icons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script src="js/jquery.flexslider.js"></script>
@@ -22,24 +23,26 @@
   <div class="cajahead">
     <header class="header">
      <div class="contenedorhead">
-          <img src="img/logopanacasa.png" alt="" class="logo">
+        <a href="index.html"><img src="img/logopanacasa.png" alt="" class="logo"></a>
           <span class="icon-menu" id="btn-menu"></span>
           <nav class="nav" id="nav">
               <ul class="menu">
-                  <li class="menu-icon"><a class="menu-item" href="">Inicio</a></li>
-                  <li class="menu-icon"><a class="menu-item" href="">Nosotros</a></li>
-                  <li class="menu-icon"><a class="menu-item" href="">Productos</a></li>
-                  <li class="menu-icon"><a class="menu-item" href="">Contacto</a></li>
+                  <li class="menu-icon"><a class="menu-item" href="index.html">Inicio</a></li>
+                  <li class="menu-icon"><a class="menu-item" href="index.html#conocenos">Nosotros</a></li>
+                  <li class="menu-icon"><a class="menu-item" href="index.html#productossec">Productos</a></li>
+                  <li class="menu-icon"><a class="menu-item" href="index.html#contacto">Contacto</a></li>
               </ul>
           </nav>     
   </div>
   </header>
     </div>
-     <div class="contenedorfoto">
-         <img src="img/banerfoto.jpg" alt="">
+     <div class="contenedorfoto" id="intento">
+         <div class="titulo">
+             <h1>Panadería</h1>
+         </div>
      </div>
      <div class="contenedor">
-         <h1>Panadería</h1>
+         <div class="cajatitulo"><h1 class="nombreseccion">Panadería</h1></div>
          <div class="linea"></div>
          <div class="listaproductos">
              <div class="item">
@@ -55,7 +58,7 @@
              <div class="item">
                  <img src="img/3arabe7x10.jpg" alt="">
                  <h3 class="titulillos">Pan árabe 7x16</h3><div class="try">
-                 <p>Masa ligera y versátil ideal para sandwiches y acompañamientos. </p></div>
+                 <p class="descripcion">Masa ligera y versátil ideal para sandwiches y acompañamientos. </p></div>
              </div>
              <div class="item">
                  <img src="img/4arabe10x10.jpg" alt="">
@@ -63,34 +66,44 @@
                  <div class="try"><p class="descripcion">Masa ligera y versátil ideal para sandwiches y acompañamientos. </p></div>
              </div>
              <div class="item">
-                 <img src="img/5masablanca.jpg" alt="">
-                 <h3 class="titulillos">Emparedados de Masa blanca</h3><div class="try">
-                 <p class="descripcion">Variedad de panes blancos para preparación de hamburguesas, mini sandwiches y perros calientes en masa árabe.</p></div>
-             </div>
+                <img src="img/panfinashierbas.jpg" alt="">
+                <h3 class="titulillos">Pan Sandwich árabe finas hierbas</h3>
+                <div class="try"><p class="descripcion">Masa ligera y versátil con pequeños toques de finas hierbas </p></div>
+            </div>
+            <div class="item">
+                <img src="img/pansandwichajonjoli.jpg" alt="">
+                <h3 class="titulillos">Pan Sandwich ajonjolí</h3>
+                <div class="try"><p class="descripcion">Masa ligera y versátil con ajonjolí </p></div>
+            </div>
              <div class="item">
-                 <img src="img/6panperro.jpg" alt="">
+                 <img src="img/panperro.jpg" alt="">
                  <h3 class="titulillos">Pan perro</h3><div class="try">
-                 <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p></div>
+                 <p class="descripcion">Pan tradicional para preparación de perros calientes a su necesidad y medida. </p></div>
              </div>
              <div class="item">
                  <img src="img/7panhamburguesa.jpg" alt="">
                  <h3 class="titulillos">Pan Hamburguesa</h3><div class="try">
-                 <p class="descripcion" lang="es">Pan tradicional para preparación de perros y hamburguesas a su necesidad y medida. </p></div>
+                 <p class="descripcion" lang="es">Pan tradicional para preparación de hamburguesas a su necesidad y medida. </p></div>
              </div>
+             <div class="item">
+                <img src="img/hamburguesalinaza.jpg" alt="">
+                <h3 class="titulillos">Pan de Hamburguesa Linaza</h3><div class="try">
+                <p class="descripcion">Pan tradicional con toques de linaza para preparación de hamburguesas a su necesidad y medida.</p></div>
+            </div>
+            <div class="item">
+                <img src="img/hamburguesaartellana.jpg" alt="">
+                <h3 class="titulillos">Pan de Hamburguesa artellana</h3><div class="try">
+                <p class="descripcion">Pan tipo artellano para preparación de hamburguesas a su necesidad y medida. </p></div>
+            </div>
+            <div class="item">
+                <img src="img/hamburguesabrioche.jpg" alt="">
+                <h3 class="titulillos">Pan de Hamburguesa <br>Brioche</h3><div class="try">
+                <p class="descripcion">Pan tipo Brioche para preparación de hamburguesas a su necesidad y medida.</p></div>
+            </div>
              <div class="item">
                  <img src="img/8panbaguette.jpg" alt="">
                  <h3 class="titulillos">Pan Baguette</h3><div class="try">
                  <p class="descripcion">Pan de corteza firme con miga y su interior blando y suave, ideal para sandwiches y acompañamientos. </p></div>
-             </div>
-             <div class="item">
-                 <img src="img/9mohicones.jpg" alt="">
-                 <h3 class="titulillos">Roscones y Mojicones</h3><div class="try">
-                 <p class="descripcion">Masa dulce con rellenos de bocadillo o arequipe. </p></div>
-             </div>
-             <div class="item">
-                 <img src="img/10miniartellano.jpg" alt="">
-                 <h3 class="titulillos">Mini artellano y mini árabe</h3><div class="try">
-                 <p class="descripcion">Pan usado en festivales italianos y para acompañamientos de comidas y entradas de 5x5 y de 25 gr.</p></div>
              </div>
              <div class="item">
                  <img src="img/11panpina.jpg" alt="">
@@ -102,6 +115,16 @@
                  <h3 class="titulillos">Pan Brioche</h3><div class="try">
                  <p class="descripcion">Pan en forma de taza llamado pan de yema para celebraciones y montaje de banquetes.</p></div>
              </div>
+             <div class="item">
+                <img src="img/pancook.jpg" alt="">
+                <h3 class="titulillos">Pan Cook</h3><div class="try">
+                <p class="descripcion">Pan esponjoso con corteza firme, idóneo para rellenar.</p></div>
+            </div>
+            <div class="item">
+                <img src="img/panlonchi.jpg" alt="">
+                <h3 class="titulillos">Pan Lonchi</h3><div class="try">
+                <p class="descripcion">Pan suave y esponjoso ideal para sandwiches.</p></div>
+            </div>
              <div class="item">
                  <img src="img/13foccacia.jpg" alt="">
                  <h3 class="titulillos">Foccacia Redonda</h3><div class="try">
@@ -141,7 +164,7 @@
                    <div class="linearedes">
                     <div class="red"><a href="https://www.facebook.com/PanaCasaCol/" target="_blank"><img src="img/logofbpng.png" alt=""></a></div>
                     <div class="red"><a href="https://www.instagram.com/panacasacol1/" target="_blank"><img src="img/logoinstapng.png" alt=""></a></div>
-                    <div class="red"><a href="" target="_blank"><img src="img/logowapng.png" alt=""></a></div>
+                    <div class="red"><a href="https://api.whatsapp.com/send?phone=573203902497&text=Hola!%20Quiero%20mas%20información!" target="_blank"><img src="img/logowapng.png" alt=""></a></div>
                  </div>  
               </div>
               </div>
